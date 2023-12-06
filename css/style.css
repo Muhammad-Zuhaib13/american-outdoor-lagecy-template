@@ -64,7 +64,7 @@ ul#top-contact-login-ul li a {
 }
 
 a.navbar-brand {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -115,7 +115,10 @@ button.btn-contact-us,
   border: 0px;
   border-radius: 5px;
 }
-
+.section_three_card{
+  max-width: 19rem;
+  width: 100%;
+}
 button.btn-read-more:hover {
   background-color: #0b2b44;
   box-shadow: none;
