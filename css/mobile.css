@@ -1,0 +1,120 @@
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  #sec-two-card-row-1,
+  #sec-two-card-row-2 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1.5rem;
+  }
+  #sec-two-col-1 {
+    left: 10px;
+  }
+  ul#main-top-nav li a {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #sec-two-card-row-1,
+  #sec-two-card-row-2 {
+    --bs-gutter-x: 5.5rem;
+    --bs-gutter-y: 1.5rem;
+  }
+  div#sec-two-col-1 {
+    left: 4rem;
+  }
+  .col-lg-4.col-md-12.col-sm-12.align-self-center {
+    margin-left: 2rem;
+  }
+  .hero-side-img {
+    width: 50%;
+    margin-left: auto;
+  }
+  ul#main-top-nav li a {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-side-img {
+    width: 50%;
+    margin-left: auto;
+  }
+
+  .btn-group.ps-2.pt-3 {
+    margin: 2rem 0px;
+  }
+
+  #sec-two-card-row-1,
+  #sec-two-card-row-2 {
+    --bs-gutter-x: 12.5rem;
+  }
+
+  .section_four_img {
+    z-index: -10;
+  }
+
+  .slick-arrow {
+    margin: 0 -38px;
+  }
+  ul#main-top-nav li a {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+  }
+  .item.slick-slide {
+    width: 416px;
+    height: 416px !important;
+    transition: transform .4s;
+    position: relative; 
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-side-img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .btn-group.ps-2.pt-3 {
+    margin: 2rem 0px;
+  }
+
+  #sec-two-card-row-1,
+  #sec-two-card-row-2 {
+    --bs-gutter-x: 12.5rem;
+  }
+
+  .section_four_img {
+    z-index: -10;
+  }
+
+  .slick-arrow {
+    margin: 0 -38px;
+  }
+  ul#main-top-nav li a {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card.border-0.shadow.section_three_card {
+    width: 13rem !important;
+  }
+
+  .section_four_img {
+    z-index: -10;
+  }
+
+  .slick-arrow {
+    margin: 0 -38px;
+  }
+  ul#main-top-nav li a {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+  }
+}
